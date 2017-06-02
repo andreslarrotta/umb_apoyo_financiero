@@ -1,31 +1,183 @@
-<div class="texto_apoyo"><hr />
-  <h1>Esto es una prueba para camilo y mauricio</h1>
-<h1 class="fuenteN" style="font-size: 25px !important; margin: -12px 0px -12px 0px; font-weight: bold !important; text-align: center; text-transform: uppercase; color: #004967 !important;">Entidades Financieras</h1>
-<hr />
-<div><hr />
-<h1 class="fuenteN" style="font-size: 18px !important; margin: -12px 0px -12px 0px; font-weight: bold !important; text-align: center; text-transform: uppercase; color: #000000 !important;">La Universidad ha suscrito convenioS con diferentes entidades financieras, para facilitar a los aspirantes el pago de su matrícula académica.</h1>
-<hr /></div>
-</div>
-<p> </p>
-<table border="0" width="830" align="center">
-<tbody>
-<tr>
-<td><img src="images/aspirantes/formato_apoyo_financiero.png" alt="" usemap="#Map" width="830" height="1253" /></td>
-</tr>
-</tbody>
-</table>
-<p><map name="Map">
-<area coords="676,38,676,186,776,185,812,156,811,73,775,37,676,39" shape="poly" href="https://www.fincomercio.com/" target="_blank" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+    .texto_apoyo {
+          text-align: center !important;
+      }
+      .entidad{
+        background: #f7f7f7 !important;
+        width: 100% !important;
+        height: 205px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        border: 1px solid #e0e0e0 !important;
+        margin-bottom: 5px !important;
+    }
+    .logo {
+          float: left !important;
+          width: 50% !important;
+          text-align: right !important;
+      }
+    .textos{
+        float: left !important;
+        width: 50% !important;
+    }
+    .textos h1 {
+        padding-left: 20px !important;
+        color: white !important;
+        font-size: 23px !important;
+        padding: 15px 0 6px 42px !important;
+        width: 290px !important;
+        border-bottom-right-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+    .textos p{
+        padding-left: 40px !important;
+    }
+    .botoncito {
+      border-radius: 4px !important;
+      border: none !important;
+      color: #FFFFFF !important;
+      text-align: center !important;
+      font-size: 20px !important;
+      padding: 5px !important;
+      width: 200px !important;
+      transition: all 0.5s !important;
+      cursor: pointer !important;
+      margin: 5px !important;
+    }
+    .botoncito span {
+      cursor: pointer !important;
+      display: inline-block !important;
+      position: relative !important;
+      transition: 0.5s !important;
+    }
+    .botoncito span:after {
+      content: '\00bb' !important;
+      position: absolute !important;
+      opacity: 0 !important;
+      top: 0 !important;
+      right: -20px !important;
+      transition: 0.5s !important;
+    }
+    .botoncito:hover span {
+      padding-right: 25px !important;
+    }
+    .botoncito:hover span:after {
+      opacity: 1 !important;
+      right: 0 !important;
+    }
 
-<area coords="675,210,674,359,777,359,811,327,812,241,777,209,674,210" shape="poly" href="https://www.bancopichincha.com.co/" target="_blank" />
+    </style>
+  </head>
+  <body>
 
-<area coords="675,383,675,531,778,530,813,498,812,415,780,382,674,382" shape="poly" href="http://www.fna.gov.co/" target="_blank" />
-
-<area coords="675,549,675,698,778,698,812,663,811,582,779,551,676,550" shape="poly" href="https://www.financieracomultrasan.com.co/es" target="_blank" />
-
-<area coords="673,719,675,866,778,866,812,833,812,750,778,719,673,718" shape="poly" href="http://www.financiar.com.co/" target="_blank" />
-
-<area coords="675,887,675,1034,777,1033,811,1001,812,920,776,886,675,887" shape="poly" href="http://www.somecoop.com/" target="_blank" />
-
-<area coords="675,1053,675,1201,777,1203,811,1170,812,1089,779,1054,675,1052" shape="poly" href="http://www.icetex.gov.co/dnnpro5/inicio" target="_blank" />
- </map></p>
+      <div class="texto_apoyo"><hr />
+        <h1>Entidades Financieras</h1>
+        <h2>La Universidad ha suscrito convenioS con diferentes entidades financieras, para facilitar a los aspirantes el pago de su matrícula académica.</h2>
+      </div>
+      <div class="entidades">
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/fincomercio.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #bf0a54 !important;">FINCOMERCIO</h1>
+            <p>
+              <b>Financiación:</b>Hasta el 100% de la matricula <br>
+              <b>Tasa de Interés:</b>Tasa preferencial<br>
+              <b>Plazo:</b>2 - 6 meses pregrado y 2 - 12 meses posgrado<br>
+              <b>Tiempo de respuesta:</b>Inmediato<br>
+            </p>
+              <a href="https://www.fincomercio.com/" target="_blank"><botoncito class="botoncito" style="  background-color: #bf0a54 !important;"><span>Fincomercio </span></botoncito></a>
+          </div>
+        </div>
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/banco_pichincha.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #fac81c !important;">BANCO PICHINCHA</h1>
+            <p>
+              <b>Financiación:</b>Hasta el 100% de la matricula <br>
+              <b>Tasa de Interés:</b>Tasa preferencial<br>
+              <b>Plazo:</b>3 - 6 meses pregrado<br>
+              <b>Tiempo de respuesta:</b>Inmediato<br>
+            </p>
+              <a href="https://www.bancopichincha.com.co/" target="_blank"><botoncito class="botoncito" style="  background-color: #fac81c !important;"><span>Banco Pichincha </span></botoncito></a>
+          </div>
+        </div>
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/fna_ahorro.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #04307d !important;">FONDO NACIONAL DEL AHORRO</h1>
+              <a href="https://www.fna.gov.co/" target="_blank"><botoncito class="botoncito" style="  background-color: #04307d !important;"><span>Fna Ahorro </span></botoncito></a>
+          </div>
+        </div>
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/financiera.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #4da92c !important;">COMULTRASAN</h1>
+            <p>
+              <b>Financiación:</b>Hasta el 100% de la matricula <br>
+              <b>Tasa de Interés:</b>Tasa preferencial<br>
+              <b>Plazo:</b>6 meses pregrado y 2 - 12 meses posgrado<br>
+              <b>Tiempo de respuesta:</b>15 minutos<br>
+            </p>
+              <a href="https://www.financieracomultrasan.com.co/es" target="_blank"><botoncito class="botoncito" style="  background-color: #4da92c !important;"><span>Comultrasan </span></botoncito></a>
+          </div>
+        </div>
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/financiar.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #ff3e29 !important;">FINANCIAR</h1>
+            <p>
+              <b>Financiación:</b>Hasta el 100% de la matricula <br>
+              <b>Tasa de Interés:</b>Pagaré o cheques posfechados 1.35%<br>
+              <b>Plazo:</b>6 - 12 (de acuerdo con la duracion del periodo académico)<br>
+              <b>Tiempo de respuesta:</b>30 a 40 minutos<br>
+            </p>
+              <a href="http://www.financiar.com.co/" target="_blank"><botoncito class="botoncito" style="  background-color: #ff3e29 !important;"><span>Financiar </span></botoncito></a>
+          </div>
+        </div>
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/somec.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #009de1 !important;">SOMEC</h1>
+            <p>
+              <b>Financiación:</b>Hasta el 100% de la matricula <br>
+              <b>Tasa de Interés:</b>Desde 0.83%<br>
+              <b>Plazo:</b>Máximo 6 meses pregrado y máximo 36 meses posgrados<br>
+              <b>Tiempo de respuesta:</b>10 -20 minutos<br>
+            </p>
+              <a href="http://www.somecoop.com/" target="_blank"><botoncito class="botoncito" style="  background-color: #009de1 !important;"><span>Somec </span></botoncito></a>
+          </div>
+        </div>
+        <div class="entidad">
+          <div class="logo">
+          <img src="images/aspirantes/icetex.png" alt="">
+          </div>
+          <div class="textos">
+            <h1 style="background: #001457 !important;">ICETEX</h1>
+            <p>
+              <b>Financiación:</b>Hasta el 100% de la matricula <br>
+              <b>Tasa de Interés:</b>Tasa preferencial<br>
+              <b>Plazo:</b>2 - 6 meses pregrado y 2 - 12 posgrado<br>
+              <b>Tiempo de respuesta:</b>Inmediato<br>
+            </p>
+              <a href="https://www.fincomercio.com/"><botoncito class="botoncito" style="  background-color: #001457 !important;"><span>Icetex </span></botoncito></a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
